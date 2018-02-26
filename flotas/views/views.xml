@@ -1,6 +1,32 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
+
+    <!-- <record model="ir.ui.view" id="flotas.calendar_seguro">
+      <field name="name">seguro calendar</field>
+      <field name="model">flotas.seguro</field>
+      <field name="arch" type="xml">
+        <calendar>
+          <field name="name"/>
+          <field name="edad"/>
+          <field name="idpais"/>
+          <field name="idspeliculas"/>
+        </calendar>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="flotas.calendar_viaje">
+      <field name="name">viaje calendar</field>
+      <field name="model">flotas.viaje</field>
+      <field name="arch" type="xml">
+        <calendar>
+          <field name="name"/>
+          <field name="edad"/>
+          <field name="idpais"/>
+          <field name="idspeliculas"/>
+        </calendar>
+      </field>
+    </record> -->
    
     <!-- actions opening views on models -->
     
