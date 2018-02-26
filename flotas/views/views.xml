@@ -1,0 +1,59 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+   
+    <!-- actions opening views on models -->
+    
+    <record model="ir.actions.act_window" id="flotas.action_conductor">
+      <field name="name">Conductor</field>
+      <field name="res_model">flotas.conductor</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="flotas.action_provincia">
+      <field name="name">Provincia</field>
+      <field name="res_model">flotas.provincia</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="flotas.action_seguro">
+      <field name="name">Seguro</field>
+      <field name="res_model">flotas.seguro</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="flotas.action_vehiculo">
+      <field name="name">Vehiculo</field>
+      <field name="res_model">flotas.vehiculo</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="flotas.action_viaje">
+      <field name="name">Viaje</field>
+      <field name="res_model">flotas.viaje</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Top menu item -->
+    
+    <menuitem name="flotas" id="flotas.menu_root"/>
+   
+    <!-- menu categories -->
+    
+    <menuitem name="Menu" id="flotas.menu" parent="flotas.menu_root"/>
+   
+    <!-- actions -->
+    
+    <menuitem name="Conductor" id="flotas.menu_conductor" parent="flotas.menu"
+              action="flotas.action_conductor"/>
+    <menuitem name="Provincia" id="flotas.menu_provincia" parent="flotas.menu"
+              action="flotas.action_provincia"/>
+    <menuitem name="Seguro" id="flotas.menu_seguro" parent="flotas.menu"
+              action="flotas.action_seguro"/>
+    <menuitem name="Vehiculo" id="flotas.menu_vehiculo" parent="flotas.menu"
+              action="flotas.action_vehiculo"/>
+    <menuitem name="Viaje" id="flotas.menu_viaje" parent="flotas.menu"
+              action="flotas.action_viaje"/>
+
+  </data>
+</odoo>
