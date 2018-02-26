@@ -8,4 +8,4 @@ class conductor(models.Model):
 
     name = fields.Char(String="nombre")
     dni = fields.Integer(String="dni")
-    idsvehiculos = fields.Many2Many(String= "conductor", comodel_name='flotas.vehiculo', relation = 'rel_vehiculos_conductores', column1='conductor', column2='vehiculo')
+#   idsvehiculos = fields.Many2Many(String= "conductor", comodel_name='flotas.vehiculo', relation = 'rel_vehiculos_conductores', column1='conductor', column2='vehiculo')
