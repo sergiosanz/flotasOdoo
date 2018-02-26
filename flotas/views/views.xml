@@ -31,31 +31,31 @@
     <!-- actions opening views on models -->
     
     <record model="ir.actions.act_window" id="flotas.action_conductor">
-      <field name="name">Conductor</field>
+      <field name="name">conductor</field>
       <field name="res_model">flotas.conductor</field>
       <field name="view_mode">tree,form</field>
     </record>
 
     <record model="ir.actions.act_window" id="flotas.action_provincia">
-      <field name="name">Provincia</field>
+      <field name="name">provincia</field>
       <field name="res_model">flotas.provincia</field>
       <field name="view_mode">tree,form</field>
     </record>
 
     <record model="ir.actions.act_window" id="flotas.action_seguro">
-      <field name="name">Seguro</field>
+      <field name="name">seguro</field>
       <field name="res_model">flotas.seguro</field>
       <field name="view_mode">tree,form</field>
     </record>
 
     <record model="ir.actions.act_window" id="flotas.action_vehiculo">
-      <field name="name">Vehiculo</field>
+      <field name="name">vehiculo</field>
       <field name="res_model">flotas.vehiculo</field>
       <field name="view_mode">tree,form</field>
     </record>
 
     <record model="ir.actions.act_window" id="flotas.action_viaje">
-      <field name="name">Viaje</field>
+      <field name="name">viaje</field>
       <field name="res_model">flotas.viaje</field>
       <field name="view_mode">tree,form</field>
     </record>
